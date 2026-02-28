@@ -2,10 +2,10 @@
 
 TileObject::TileObject(){
     this->name = "Default Object";
-    this -> value = 0;
+    this -> symbol = '?';
 }
 
-TileObject::TileObject(string name, int value){
+TileObject::TileObject(string name, char value){
     this->name = name;
-    this->value = value;
+    this->symbol = value;
 }

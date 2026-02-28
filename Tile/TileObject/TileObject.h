@@ -5,16 +5,16 @@ using namespace std;
 class TileObject{
 private:
     string name;
-    int value;
+    char symbol;
 public:
-    TileObject(string name, int value);
+    TileObject(string name, char symbol);
     TileObject();
 
     string getName(){
         return name;
     }
 
-    int getValue(){
-        return value;
+    int getSymbol(){
+        return symbol;
     }
 };
